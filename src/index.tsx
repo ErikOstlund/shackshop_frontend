@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Listings } from './sections';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<div>Shack Shop</div>
+		<Listings />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
