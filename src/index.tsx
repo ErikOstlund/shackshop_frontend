@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Listings />
+		<Listings title='Shack Listings' />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
